@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <style>
+        #sy{
+            width: 1300px;
+            height: 1200px;
+            background-color: lightcyan;
+        }
+        .top1{
+            width: 1300px;
+            height: 150px;
+            background: url("../photo/p1.jpg");
+        }
+        .top2 {
+            width: 1300px;
+            height: 50px;
+            background-color: darkgrey;
+        }
+        .body{
+            width: 300px;
+            height: 400px;
+            margin-left: 500px;
+            margin-top: 20px;
+            background-color: mediumspringgreen;
+        }
+        .body1{
+            font-size: 20px;
+            font-weight: 600;
+            margin-left: 30px;
+            padding-top: 20px;
+        }
+        .hym,.mm1,.mm2,.dz{
+            width: 200px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+<div id="sy">
+    <div class="top1"></div>
+    <div class="top2"></div>
+    <div class="body">
+        <form class="body1" onsubmit="fun()">
+            用 户 名<br><input class="hym" type="text" placeholder="请输入"><br>
+            密 码<br><input class="mm1" type="password" placeholder="8-12位字符即可"><br>
+            确认密码 <br><input class="mm2" type="pass" placeholder="与上方密码一致"><br>
+            收货地址<br><input class="dz" type="add" placeholder="可多次进行更改"><br>
+            <div><input type="submit" value="立即注册"></div>
+        </form>
+        <script>
+            function fun(){
+                alert("注册成功")
+            }
+        </script>
+    </div>
+</div>
+</body>
+</html>
